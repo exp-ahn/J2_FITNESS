@@ -1,4 +1,5 @@
 import './App.css';
+import Home from './Home';
 
 const openNewTab = (address) => {
     window.open(address);
@@ -7,6 +8,7 @@ const openNewTab = (address) => {
 function App() {
     return (
         <div className="App">
+            <Home />
             <header className="App-header">
                 {' '}
                 <a onClick={() => openNewTab('https://www.instagram.com/j2_fitness_official/')}>인스타그램</a>
