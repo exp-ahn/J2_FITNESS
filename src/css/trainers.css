@@ -1,0 +1,21 @@
+.j2-trainers {
+    display: flex;
+    justify-content: center;
+}
+
+.trainers {
+    width: 250px;
+    height: 350px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainer-img {
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}

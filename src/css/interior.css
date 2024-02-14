@@ -1,0 +1,22 @@
+.j2-interior-table {
+    display: flex;
+    justify-content: center;
+}
+
+.j2-interior-table tr td {
+    width: 200px;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+.j2-interior-table tr td > img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.modal-body > img {
+    width: 1000px;
+    height: 580px;
+    object-fit: cover;
+}

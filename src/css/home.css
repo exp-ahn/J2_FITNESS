@@ -1,0 +1,39 @@
+#navbar-example2 {
+    background: rgba(0, 0, 0, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.navbar-brand > img:first-child {
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-brand > img:last-child {
+    height: 50px;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: #000;
+    --bs-nav-pills-link-active-bg: #ffcb09;
+}
+
+.nav {
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+}
+
+:root {
+    --bs-link-color: #ffcb09;
+    --bs-link-hover-color: #ffcb09;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.2em;
+}

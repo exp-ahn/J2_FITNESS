@@ -1,0 +1,23 @@
+.contact-way-list {
+    display: flex;
+    justify-content: center;
+}
+.contact-way-card {
+    margin: 20px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-way-card > div > img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.underline-box {
+    width: 200px;
+    border-bottom: 2px solid #dadada;
+    margin-bottom: 15px;
+}

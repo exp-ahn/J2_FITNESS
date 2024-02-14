@@ -1,0 +1,9 @@
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.main_section {
+    padding-top: 110px;
+    height: 100vh;
+}

@@ -1,0 +1,76 @@
+/* .map-button > img {
+    width: 200px;
+    object-fit: contain;
+} */
+
+.map-button {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.kakao-map-button {
+    padding-right: 15px;
+    background-color: #fae100;
+    width: 200px;
+    height: 60px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+}
+
+.naver-map-button {
+    background-color: #03c75b;
+    width: 200px;
+    height: 60px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+}
+
+.kakao-map-button > img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.kakao-map-button:hover,
+.naver-map-button:hover {
+    cursor: pointer;
+}
+.naver-map-button > img:first-child {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.naver-map-button > img:last-child {
+    width: 120px;
+    height: 52px;
+    object-fit: contain;
+}
+
+.detail-info {
+    margin-top: 20px;
+}
+
+.detail-info p,
+.detail-info strong {
+    text-align: left;
+}
+
+.detail-info > ul > li {
+    margin-left: 15px;
+}
+
+.detail-info > ul > h4 {
+    font-weight: bold;
+}
+
+.detail-info > ul > h5 {
+    text-align: left;
+    line-height: 50px;
+    margin-left: 5px;
+    font-weight: bold;
+}
