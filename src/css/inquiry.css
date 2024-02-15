@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.contact-way-card > div > img {
+.contact-way-card > div > figure > img {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;

@@ -48,20 +48,20 @@ const Trainers = () => {
         <section>
             <h3>트레이너</h3>
             <div className="j2-trainers">
-                <div className="trainers slide-up" ref={fadeIn1?.ref} style={fadeIn1?.style}>
+                <div className="trainers zoom-in" ref={fadeIn1?.ref} style={fadeIn1?.style}>
                     <figure>
                         <img className="trainer-img" src="./imgs/trainers/Kim/trainer-kim.jpeg" alt="" />
                         <h4>김 성 주</h4>
                     </figure>
                 </div>
-                <div className="trainers slide-up" ref={fadeIn2?.ref} style={fadeIn2?.style}>
+                <div className="trainers zoom-in" ref={fadeIn2?.ref} style={fadeIn2?.style}>
                     <figure>
                         <img className="trainer-img" src="./imgs/trainers/Jo/trainer-jo.jpeg" alt="" />
                         <h4>조 태 현</h4>
                     </figure>
                 </div>
                 <div
-                    className="trainers slide-up"
+                    className="trainers zoom-in"
                     ref={fadeIn3?.ref}
                     style={fadeIn3?.style}
                     data-bs-toggle="modal"
@@ -78,13 +78,13 @@ const Trainers = () => {
                         <h4>임 수 진</h4>
                     </figure>
                 </div>
-                <div className="trainers slide-up" ref={fadeIn4?.ref} style={fadeIn4?.style}>
+                <div className="trainers zoom-in" ref={fadeIn4?.ref} style={fadeIn4?.style}>
                     <figure>
                         <img className="trainer-img" src="./imgs/trainers/Park/trainer-park.jpeg" alt="" />
                         <h4>박 도 연</h4>
                     </figure>
                 </div>
-                <div className="trainers slide-up" ref={fadeIn5?.ref} style={fadeIn5?.style}>
+                <div className="trainers zoom-in" ref={fadeIn5?.ref} style={fadeIn5?.style}>
                     <figure>
                         <img className="trainer-img" src="./imgs/trainers/Beak/trainer-Beak.jpeg" alt="" />
                         <h4>백 인 호</h4>

@@ -49,15 +49,15 @@
 
 /* Zoom In #1 */
 
-.slide-up figure img,
-.slide-up figure h4 {
+/* .zoom-in figure h4, */
+.zoom-in figure img {
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
-.slide-up figure:hover img,
-.slide-up figure:hover h4 {
+/* .zoom-in figure:hover h4, */
+.zoom-in figure:hover img {
     -webkit-transform: scale(1.08);
     transform: scale(1.08);
 }
