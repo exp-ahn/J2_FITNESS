@@ -18,4 +18,46 @@
     height: 300px;
     margin-bottom: 10px;
     object-fit: cover;
+    border-radius: 15px;
+}
+
+.trainer-img-modal {
+    width: 420px;
+    height: 625px;
+    object-fit: cover;
+}
+
+.trainer-detail {
+    color: #ffcb09;
+    margin: 30px 30px 0px 10px;
+}
+
+.award-list > li {
+    text-align: left;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 0;
+    background-color: #000;
+    width: none;
+}
+
+/* Zoom In #1 */
+
+.slide-up figure img,
+.slide-up figure h4 {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.slide-up figure:hover img,
+.slide-up figure:hover h4 {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
 }

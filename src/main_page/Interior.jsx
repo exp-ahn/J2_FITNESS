@@ -134,7 +134,7 @@ const Interior = () => {
                             ></button>
                         </div>
                         <div className="modal-body">
-                            <img src="./imgs/carousel-img2.jpeg" alt="" />
+                            <img className="machine-detail" src="./imgs/carousel-img2.jpeg" alt="" />
                         </div>
                     </div>
                 </div>

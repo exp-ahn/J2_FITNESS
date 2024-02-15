@@ -1,21 +1,17 @@
+import '../css/blog.css';
+
 const Blog = ({ openNewTab }) => {
     return (
         <section>
-            <h3 onClick={() => openNewTab('https://blog.naver.com/dmfmtm')}>블로그</h3>
-            <br />
-            <br />
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
-            <p>블로그</p>
+            <h3 onClick={() => openNewTab('https://blog.naver.com/hyun6290')}>블로그</h3>
+            <div className="flex">
+                <img
+                    className="blog-main-img"
+                    src="./imgs/blog-main.png"
+                    alt=""
+                    onClick={() => openNewTab('https://blog.naver.com/hyun6290')}
+                />
+            </div>
         </section>
     );
 };
