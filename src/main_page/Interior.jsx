@@ -13,7 +13,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img1.jpeg"
-                                    alt=""
                                 />
                             </td>
                             <td>
@@ -21,7 +20,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img2.jpeg"
-                                    alt=""
                                 />
                             </td>
                             <td>
@@ -29,7 +27,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img3.jpeg"
-                                    alt=""
                                 />
                             </td>
                             <td>
@@ -37,7 +34,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img4.jpeg"
-                                    alt=""
                                 />
                             </td>
                         </tr>
@@ -47,7 +43,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img2.jpeg"
-                                    alt=""
                                 />
                             </td>
                             <td>
@@ -55,7 +50,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img3.jpeg"
-                                    alt=""
                                 />
                             </td>
                             <td>
@@ -63,7 +57,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img4.jpeg"
-                                    alt=""
                                 />
                             </td>
                             <td>
@@ -71,7 +64,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img1.jpeg"
-                                    alt=""
                                 />
                             </td>
                         </tr>
@@ -81,7 +73,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img3.jpeg"
-                                    alt=""
                                 />
                             </td>
                             <td>
@@ -89,7 +80,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img4.jpeg"
-                                    alt=""
                                 />
                             </td>
                             <td>
@@ -97,7 +87,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img1.jpeg"
-                                    alt=""
                                 />
                             </td>
                             <td>
@@ -105,7 +94,6 @@ const Interior = () => {
                                     data-bs-toggle="modal"
                                     data-bs-target="#exampleModal"
                                     src="./imgs/carousel-img2.jpeg"
-                                    alt=""
                                 />
                             </td>
                         </tr>
@@ -134,7 +122,7 @@ const Interior = () => {
                             ></button>
                         </div>
                         <div className="modal-body">
-                            <img className="machine-detail" src="./imgs/carousel-img2.jpeg" alt="" />
+                            <img className="machine-detail" src="./imgs/carousel-img2.jpeg" />
                         </div>
                     </div>
                 </div>

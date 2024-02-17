@@ -10,7 +10,6 @@ const Inquiry = ({ openNewTab }) => {
                         <figure>
                             <img
                                 src="./imgs/contact/kakao.png"
-                                alt=""
                                 onClick={() => openNewTab('https://open.kakao.com/o/s0OcyAhb')}
                             />
                             <h4 onClick={() => openNewTab('https://open.kakao.com/o/s0OcyAhb')}>오픈 카톡</h4>
@@ -26,7 +25,6 @@ const Inquiry = ({ openNewTab }) => {
                         <figure>
                             <img
                                 src="./imgs/contact/instagram.png"
-                                alt=""
                                 onClick={() => openNewTab('https://www.instagram.com/j2_fitness_official/')}
                             />
                             <h4 onClick={() => openNewTab('https://www.instagram.com/j2_fitness_official/')}>
@@ -44,7 +42,6 @@ const Inquiry = ({ openNewTab }) => {
                         <figure>
                             <img
                                 src="./imgs/contact/naver-talk.png"
-                                alt=""
                                 onClick={() => openNewTab('https://talk.naver.com/ct/wc2kmy?frm=mnmb&frm=nmb_detail')}
                             />
                             <h4 onClick={() => openNewTab('https://talk.naver.com/ct/wc2kmy?frm=mnmb&frm=nmb_detail')}>

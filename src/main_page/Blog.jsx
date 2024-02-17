@@ -8,7 +8,6 @@ const Blog = ({ openNewTab }) => {
                 <img
                     className="blog-main-img"
                     src="./imgs/blog-main.png"
-                    alt=""
                     onClick={() => openNewTab('https://blog.naver.com/hyun6290')}
                 />
             </div>
